@@ -23,7 +23,6 @@ img {
   width:50px;
 }
 
-
 .icon-menu li {
   display: none;
 }
@@ -55,7 +54,7 @@ img {
   }
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 1000px) {
 
   .site-header{
     pointer-events: none;
