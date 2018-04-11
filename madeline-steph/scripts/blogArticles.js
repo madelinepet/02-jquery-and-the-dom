@@ -1,7 +1,7 @@
 'use strict';
 
 // COMMENT: How is this data utilized within our blog app? What is the structure of this data (your response should include the terms "object", "array", and "key/value pairs")?
-// PUT YOUR RESPONSE HERE
+// This data is the source of the instances for the constructor function. The data is in object form. These are pushed into the global array, articles, in the article.js file. They are pushed in as key-value pairs in terms of the name for the properties making up the key and the corresponding info making up the value.
 
 let rawData = [
   {
