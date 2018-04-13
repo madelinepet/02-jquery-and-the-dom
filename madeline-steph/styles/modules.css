@@ -1,3 +1,72 @@
 .template{
   display: none;
 }
+
+img {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+   }
+
+.icon-menu {
+  top: 10px;
+  right: 10px;
+  position: absolute;
+}
+
+.icon-menu:before{
+  width:50px;
+}
+
+.icon-menu li {
+  display: none;
+}
+
+.icon-menu li:last-child{
+  margin-bottom: 20px;
+}
+
+.icon-menu li a {
+  color: grey;
+  text-decoration: none;
+}
+
+.site-header:hover .icon-menu {
+  position: relative;
+  visibility: hidden;
+}
+
+.site-header:hover .icon-menu li{
+  float: left;
+  display: block;
+  visibility: visible;
+}
+
+@media screen and (min-width: 700px) {
+    img{
+    max-width: 300px;
+    float: right;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  .site-header{
+    pointer-events: none;
+  }
+
+  .icon-menu{
+    visibility: hidden;
+    position: static;
+  }
+  .icon-menu li{
+    display: inline;
+    visibility: visible;
+    position: static;
+  }
+}
